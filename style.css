@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: arial;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+header {
+    height: 263px;
+    background-color: #445162;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    float: left;
+}
+
+h1 {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.header-menu {
+    padding-top: 51px;
+    padding-left: 36px;
+    list-style-image: url(img/check_icon.png);
+}
+
+.header-list {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.about-txt {
+    width: 653px;
+    padding-top: 30px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pluses {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.pluses-h2 {
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.menu {
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pluses-list {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 526px;
+    list-style-type: none;
+    background: url(img/plus.png)left top no-repeat;
+    padding: 0 0 20px 50px;
+}
+
+.pluses-list:last-child {
+    padding-bottom: 0;
+}
+
+.screenshots {
+    padding: 50px;
+}
+
+.screen-h2 {
+    padding-bottom: 35px;
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.screen-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-list {
+    width: 359px;
+    list-style-type: none;
+    background: url(img/image.svg)left top no-repeat;
+    padding: 0 0 30px 215px;
+}
+
+h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.screen-txt {
+    padding-top: 10px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
