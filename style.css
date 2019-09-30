@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.headerUp {
+    max-width: 1211px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    padding: 20px 20px;
+    justify-items: end;
+}
+
+hr {
+    color: #c2c2c2;
+    opacity: 0.69;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.headerLogo {
+    justify-self: start;
+}
+
+.headerWork,
+.headerMail,
+.headerCall {
+    display: table;
+}
+
+.headerWork > p,
+.headerMail > p,
+.headerCall > p {
+    display: table-cell !important;
+    vertical-align: middle;
+}
+
+.headerWork > img,
+.headerMail > img,
+.headerCall > img {
+    float: left;
+    margin-right: 10px;
+}
+
+.headerDown {
+    max-width: 1195px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.headerDown a {
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #6c6c6c;
+}
+
+.headerDown a:hover {
+    color: black;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.slider {
+    background: url(img/phoneimg.jpg);
+    background-size: cover;
+    padding: 180px 250px;
+    position: relative;
+}
+
+.sliderH2 {
+    max-width: 524px;
+    color: #474747;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -1.19px;
+}
+
+.sliderText {
+    max-width: 420px;
+    margin: 37px 49px;
+    color: #3f3f3f;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.sliderButton {
+    display: inline-block;
+    width: 166px;
+    box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
+    background-color: #1a9bdc;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.32px;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 40px;
+    margin-left: 181px;
+}
+
+.sliderLogo {
+    position: absolute;
+    bottom: 70px;
+    right: 650px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+
+}
+
+.serviceItems1 {
+    background-color: #43b1d2;
+    padding: 60px;
+    text-align: center;
+}
+
+.serviceItems2 {
+    background-color: #3fb6c6;
+    padding: 60px;
+    text-align: center;
+}
+
+.serviceItems3 {
+    background-color: #3cbbbb;
+    padding: 60px;
+    text-align: center;
+}
+
+.serviceItems4 {
+    background-color: #37c3a8;
+    padding: 60px;
+    text-align: center;
+}
+
+.servicesH2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1.82px;
+    margin-top: 23px;
+    margin-bottom: 29px;
+}
+
+.servicesText {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
